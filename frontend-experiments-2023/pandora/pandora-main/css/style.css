@@ -1,0 +1,255 @@
+html,
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: auto;
+}
+
+.promotion {
+    background-color: #fbd0d5;
+    height: 28px;
+    text-align: center;
+}
+
+.promotion>img {
+    height: 28px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 8px 0px;
+    border-bottom: 3px solid #f2a1b2;
+}
+
+.search {
+    width: 392px;
+    height: 40px;
+    border-radius: 0px;
+    border: 1px solid #d3d3d3;
+    background-image: url("../assets/img/lupa.png");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: left 16px center;
+    padding-left: 64px;
+}
+
+.logo {
+    margin-right: 430px;
+}
+
+.icons {
+    margin-left: auto;
+}
+
+.nav-links {
+    padding: 22px 0px;
+    display: flex;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-links ul li a {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links ul li a:hover {
+    border-bottom: 2px solid #f2a1b2;
+}
+
+.nav-links ul li a.caret {
+    padding-right: 32px;
+    background-image: url("../assets/img/caret.svg");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+    padding: 18px;
+    background: linear-gradient(144deg, rgba(245, 221, 211, 1) 0%, rgba(234, 172, 216, 1) 100%);
+
+}
+
+
+.content {
+    margin: auto;
+    max-width: 1220px;
+}
+
+.border-gray {
+    border-bottom: 1px solid #ccc;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.slider label {
+    font-size: 12px;
+    color: #999;
+}
+
+.slider input[type=range] {
+    width: 130px;
+    appearance: none;
+    background: #fbd0d5;
+    height: 5px;
+    border-radius: 999px;
+}
+
+.slider input[type=range]::-webkit-slider-thumb {
+    appearance: none;
+    background: #f2a1b2;
+    height: 12px;
+    width: 12px;
+    border-radius: 999px;
+}
+
+#filter {
+    font-weight: 300;
+}
+
+#filter:hover {
+    border: none;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 14px;
+    border: 1px solid #d3d3d3;
+    width: 300px;
+    height: 560px;
+    background: #fff;
+}
+
+.product:hover {
+    border: 1px solid #f2a1b2;
+    box-shadow: 0px 0px 16px rgba(1, 1, 1, 0.3);
+    cursor: pointer;
+}
+
+.product a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.rating img {
+    width: 100px;
+    padding: 10px 1px;
+}
+
+h4 {
+    padding: 20px 2px;
+    width: 273.656px;
+    height: 36.781px;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 18px;
+}
+
+.banner-content{
+    text-align: center;
+    width: 276.984px;
+    height: 25.469px;
+    padding: 10px 2px;
+}
+
+h5{
+    padding: 3px 2px 8px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #27251f
+}
+
+h6{
+    font-family: pandisplay;
+    padding: 2px 3% 20px;
+    color: rgb(105, 105, 105);
+}
+
+button{
+    padding: 4px 0px 5.13px;
+    width: 247.891px;
+    height: 34px;
+    background-color: #ed8ba0;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 4px 2px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    font-size: 18px;
+    font-family: courier; 
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #ed8ba0
+}
+
+.button1:hover {
+    background-color:#ed8ba0;
+    color: white;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #ed8ba0;
+}
+
+.button2:hover {
+    background-color:#ed8ba0;
+    color: white;
+}
+
+.centerline{
+    text-align: center;
+    font-family: monospace;
+    font-size: 12px;
+    color: #5d5955;
+    text-transform: none;
+    font-family: PanDisplay;
+    font-weight: 400;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgba(194, 197, 197, 0.274);
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    margin: 10px;
+    color: rgb(12, 127, 199);
+}
+
+h2, p, a {
+    text-decoration: none;
+    display: block;
+    color: rgb(88, 88, 88);
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: rgb(12, 127, 199);
+    font-weight: bold;
+}
+
+form {
+    background: rgb(245, 246, 246);
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+    display: block;
+    margin: 100px auto;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+input {
+    background: rgb(245, 246, 246);
+   /* border: 1px solid red; */
+    display: block;
+    margin: 20px auto;
+    width: 260px;
+    height: 30px;
+    border: 0; 
+    outline: 0;
+    border-bottom: 3px solid #20b5ff;
+    font-size: 1rem;
+    color: #0b0b0b;
+}
+
+button {
+    background: #20a4e6;
+    width: 130px;
+    height: 40px;
+    border-radius: 40px;
+    color: azure;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    border: #20b5ff;
+}
+
+button:hover{
+    background:  rgb(12, 127, 199);
+}
+
+
+.loading {
+    width: 40px;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
